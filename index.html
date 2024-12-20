@@ -7,11 +7,27 @@
     <title>Github Profiles</title>
   </head>
   <body>
-    <form class="user-form" id="form">
+    <form class="userForm" id="form">
       <input type="text" id="search" placeholder="Search a Github User">
     </form>
 
-    <main id="main"></main>
+    <main id="main">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="avatar" class="avatar">
+        <div class="userInfo">
+          <h2 class="userName">Name</h2>
+          <p class="description">Description</p>
+          <ul class="followersInfo">
+            <li class="followers">Followers</li>
+            <li class="following">Following</li>
+            <li class="resposList">Repos</li>
+          </ul>
+          <div class="repos">
+          </div>
+        </div>
+      
+      </div>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
     <script src="script.js"></script>
